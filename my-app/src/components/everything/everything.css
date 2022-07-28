@@ -1,0 +1,48 @@
+.everything{
+    padding-top: 111px;
+
+}
+.everything-h1{
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.everything-div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.everything-h2{
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+.everything-a{
+    text-decoration: none;
+}
+.button{
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    border: 1px solid white;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}

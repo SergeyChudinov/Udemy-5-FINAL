@@ -1,0 +1,38 @@
+.aboutUs{
+    height: 520px;
+}
+.aboutUs-h1{
+    text-align: center;
+    padding-top: 80px;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.aboutUs-div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.aboutUs-div-p-div{
+    display: flex;
+    justify-content: center;
+}
+.aboutUs-p-div{
+    padding-top: 40px;
+    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutUs-p{
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}

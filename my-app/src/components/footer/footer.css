@@ -1,0 +1,22 @@
+.footer{
+    height: 150px;
+    text-align: center;
+}
+.footer-div{
+    padding-top: 37px;
+}
+.footer-href{
+    padding-right: 40px;
+    text-decoration: none;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+}
+.footer-div-img{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
