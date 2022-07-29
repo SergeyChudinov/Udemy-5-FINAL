@@ -1,0 +1,13 @@
+.home2Page{
+    height: 253px;
+    background-image: url(img/coffee-shop.png);
+}
+.home2Page-h1{
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}

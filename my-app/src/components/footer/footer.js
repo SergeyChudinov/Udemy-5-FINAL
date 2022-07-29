@@ -22,7 +22,9 @@ class Footer extends Component {
                     <a className="footer-href" href="vk.com">For your pleasure</a> 
                 </div>   
                 <div className="footer-div-img">
+                    <div className="footer-line"></div>
                     <img src={src2} alt="" />
+                    <div className="footer-line"></div>
                 </div>          
             </div>
         )
