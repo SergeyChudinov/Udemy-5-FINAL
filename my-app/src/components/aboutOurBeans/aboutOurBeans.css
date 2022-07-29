@@ -50,7 +50,7 @@
     justify-content: center;
     padding-top: 60px;
 }
-.lookiing-for{
+/* .lookiing-for{
     font-family: cursive;
     font-style: normal;
     font-weight: 400;
@@ -58,7 +58,7 @@
     line-height: 5px;
     text-align: center;
     color: #000000;
-}
+} */
 .aboutOurBeans-input{
     padding-left: 10px;
     margin-left: 19px;
@@ -86,7 +86,7 @@
     text-align: center;
     color: #000000;
 }
-.aboutOurBeans-button{
+/* .aboutOurBeans-button{
     width: 75px;
     height: 30px;
     margin-right: 5px;
@@ -101,7 +101,7 @@
     line-height: 17px;
     text-align: center;
     color: #000000;
-}
+} */
 .block-display{
     margin: 0 auto;
     width: 802px;

@@ -1,12 +1,14 @@
 // import { Component } from "react";
 import AboutOurBeansItem from '../aboutOurBeans-item/aboutOurBeans-item';
+import LookiingFor from '../lookiingFor/lookiingFor';
+import AppFilter from '../app-filter/app-filter'
 
 import Girl from './img/girl.jpg';
 import Vector from './img/Vector.png';
 
 import './aboutOurBeans.css';
 
-const AboutOurBeans = ({data}) => {
+const AboutOurBeans = ({data, term, onUpdateSearch, filter, onFilterSelect}) => {
     const elements = data.map((item) => {
         const {id, ...itemProps} = item;
         return (
@@ -43,16 +45,16 @@ const AboutOurBeans = ({data}) => {
             </div>
             <div className="aboutOurBeans-filter">
                 <p className="lookiing-for">Lookiing for</p>
-                <input    //onChange={this.onUpdateSearch}
-                    type="text" 
-                    className="aboutOurBeans-input"
-                    placeholder="start typing here..."
-                            //value={this.state.term}
-                />
+                <LookiingFor
+                term={term}
+                onUpdateSearch={onUpdateSearch}/>
                 <p className="lookiing-filter">Or filter</p>
-                <button className="aboutOurBeans-button">Brazil</button>
+                <AppFilter
+                filter={filter}
+                onFilterSelect={onFilterSelect}/>
+                {/* <button className="aboutOurBeans-button">Brazil</button>
                 <button className="aboutOurBeans-button">Kenya</button>
-                <button className="aboutOurBeans-button">Columbia</button>
+                <button className="aboutOurBeans-button">Columbia</button> */}
             </div>
             <div className="block-display">
                 {elements}
