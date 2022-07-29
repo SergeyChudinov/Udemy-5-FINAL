@@ -1,0 +1,112 @@
+.aboutOurBeans{
+    padding-top: 70px;
+}
+.aboutOurBeans-container{
+    display: flex;
+    justify-content: center;
+}
+.aboutOurBeans-div{
+    padding-left: 100px;
+    width: 231px;
+}
+.aboutOurBeans-h2{
+    text-align: center;
+}
+.aboutOurBeans-line-div{
+    display: flex;
+    justify-content: center;
+}
+.aboutOurBeans-line{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 13px;
+    width: 60px;
+    height: 0px;
+    border-bottom: 1px solid #000000;
+}
+.aboutOurBeans-p{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.aboutOurBeans-line2-div{
+    padding-top: 57px;
+    display: flex;
+    justify-content: center;
+}
+.aboutOurBeans-line2{
+    justify-content: center;
+    margin-top: 13px;
+    width: 250px;
+    height: 0px;
+    border-bottom: 1px solid #000000;
+}
+.aboutOurBeans-filter{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.lookiing-for{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 5px;
+    text-align: center;
+    color: #000000;
+}
+.aboutOurBeans-input{
+    padding-left: 10px;
+    margin-left: 19px;
+    width: 170px;
+    height: 30px;
+    border: none;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5)
+}
+.lookiing-filter{
+    padding-left: 83px;
+    padding-right: 35px;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 5px;
+    text-align: center;
+    color: #000000;
+}
+.aboutOurBeans-button{
+    width: 75px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 4px 4px 4px;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.block-display{
+    margin: 0 auto;
+    width: 802px;
+    flex-wrap: wrap;
+    padding-top: 39px;
+    display: flex;
+    justify-content: center;
+}

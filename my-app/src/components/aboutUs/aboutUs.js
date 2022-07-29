@@ -16,7 +16,9 @@ class AboutUs extends Component {
             <div className="aboutUs">
                     <h1 className="aboutUs-h1">About Us</h1>
                     <div className="aboutUs-div">
+                        <div className="line"></div>
                         <img src={src} alt="" />
+                        <div className="line"></div>
                     </div>
                     
                     <div className="aboutUs-div-p-div">
