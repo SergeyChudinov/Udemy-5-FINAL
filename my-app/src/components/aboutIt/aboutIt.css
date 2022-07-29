@@ -1,0 +1,35 @@
+.aboutOurBeans{
+    padding-top: 70px;
+}
+.aboutOurBeans-container{
+    display: flex;
+    justify-content: center;
+}
+.aboutOurBeans-div{
+    padding-left: 100px;
+    width: 346px;
+}
+.aboutOurBeans-h2{
+    text-align: center;
+}
+.aboutOurBeans-line-div{
+    display: flex;
+    justify-content: center;
+}
+.aboutOurBeans-line{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 13px;
+    width: 60px;
+    height: 0px;
+    border-bottom: 1px solid #000000;
+}
+.aboutOurBeans-p{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
