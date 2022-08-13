@@ -1,6 +1,9 @@
 .home2Page{
+    width: 1440px;
     height: 253px;
     background-image: url(img/coffee-shop.png);
+    justify-content: center;
+    margin: 0 auto;
 }
 .home2Page-h1{
     text-align: center;
