@@ -1,3 +1,4 @@
+import {Link, NavLink} from 'react-router-dom'; 
 import { Component } from "react";
 
 import src from './img/Group.png';
@@ -15,12 +16,14 @@ class Header extends Component {
         return (
             <div className="header">
                 <img className="img" src={src} alt="coffee" />
-                <a className="header-href" href="vk.com">Coffee house</a>
-                <a className="header-href" href="vk.com">Our coffee</a>
-                <a className="header-href" href="vk.com">For your pleasure</a>
+                <NavLink exact activeStyle={{'color': '#9f0013'}} to='/' className="header-href" >Coffee house</NavLink>
+                <NavLink exact activeStyle={{'color': '#9f0013'}} to='/ourcoffee' className="header-href" >Our coffee</NavLink>
+                {/* <a className="header-href" href="#">For your pleasure</a> */}
             </div>
         )
     }
 }
 
 export default Header;
+
+//<NavLink exact activeStyle={{'color': '#9f0013'}} to='/'
