@@ -59,7 +59,7 @@ class OurCoffee extends Component {
     const {data, term, filter} = this.state;
     const visibleData = this.filtePost(this.searchEmp(data, term), filter);
     return (
-      <div className="app2">
+      <div className="app">
         <Home2Page/>
         <AboutOurBeans
             term={term}

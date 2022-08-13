@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'; 
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'; 
 
 import { Component } from 'react';
 
@@ -12,14 +12,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <MainPage/>
-          </Route>
-          <Route exact path="/ourcoffee">
-            <OurCoffee/>
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<MainPage/>}/>
+          <Route path="/ourcoffee" element={<OurCoffee/>}/>
+        </Routes>
       </Router>
   )
   }
